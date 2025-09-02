@@ -1,0 +1,115 @@
+/* https://just-the-docs.com/docs/customization/#override-and-completely-custom-styles */
+
+.post-info {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post-info .post-tag {
+    display: inline-block;
+    background-color: #c5cae9;
+    color: #000;
+    margin: 0 0.25em;
+    padding: 0 0.75em;
+    border-radius: 1em;
+}
+
+.reply-separator {
+    border: 1px solid #ddd;
+    height: 0;
+    margin: 10px 0;
+}
+
+/* 目前为止最多只到 l4 :D */
+.reply.reply-l1 {
+    margin-left: 40px;
+}
+
+.reply.reply-l2 {
+    margin-left: 80px;
+}
+
+.reply.reply-l3 {
+    margin-left: 120px;
+}
+
+.reply.reply-l4 {
+    margin-left: 160px;
+}
+
+.reply .reply-header .reply-verified {
+    /* cscore 原版助教认证 */
+    float: right;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0 0.75em;
+    border-radius: 1em;
+}
+
+.reply .reply-header .reply-badges {
+    float: right;
+}
+
+.reply .reply-header .badge {
+    display: inline-block;
+    margin: 0 0.25em;
+    padding: 0 0.75em;
+    border-radius: 1em;
+    border-color: var(--text-color);
+    border-width: thin;
+    border-style: solid;
+}
+
+.reply .reply-header .badge.badge-subscribes {
+    background-color: #64b5f6;
+    border-color: #64b5f6;
+    color: #fff;
+}
+
+.reply .reply-header .badge.badge-likes {
+    background-color: #ba68c8;
+    border-color: #ba68c8;
+    color: #fff;
+}
+
+.reply .reply-header .badge.badge-topped {
+    background-color: #ffb74d;
+    border-color: #ffb74d;
+    color: #fff;
+}
+
+.reply .reply-header .badge.badge-closed {
+    background-color: #e57373;
+    border-color: #e57373;
+    color: #fff;
+}
+
+.reply .reply-header .badge.badge-authentic {
+    background-color: #81c784;
+    border-color: #81c784;
+    color: #fff;
+}
+
+.reply .reply-text {
+    clear: both;
+    padding: 0 20px;
+}
+
+.reply .reply-text pre {
+    tab-size: 4;
+}
+
+.reply .reply-text img {
+    margin-bottom: 0;
+}
+
+.reply .reply-footer .reply-vote {
+    float: right;
+}
+
+.reply .reply-footer .reply-datetime {
+    float: right;
+    text-align: right;
+    font-size: 50%;
+}

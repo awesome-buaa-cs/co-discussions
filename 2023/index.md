@@ -1,8 +1,8 @@
 ---
 title: CO 2023 讨论区优质帖汇总
-date: 2024-01-12
-updated: 2024-05-11
+layout: default
 ---
+# CO 2023 讨论区优质帖汇总
 <style>
 th:nth-child(2),
 td:nth-child(2) {

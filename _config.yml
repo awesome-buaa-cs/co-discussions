@@ -6,3 +6,7 @@ url: https://awesome-buaa-cs.github.io/co-discussions
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+markdown: CommonMark
+commonmark:
+  options: [unsafe]
